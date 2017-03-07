@@ -35,10 +35,9 @@ gpadding=5 -- global padding (number)
 }
 
 function listbox:newprop(tlist)
-for new, value in pairs(tlist) do
-	self[new]=value
-end
-
+	
+for new, value in pairs(tlist) do self[new]=value end
+	
 listbox.ispress=false
 listbox.over=false
 
@@ -1188,8 +1187,8 @@ ex: result = list:enudir("images",".png .jpeg .bmp")
 ex: result = list:enudir("contents")
 
 listbox:sectotime(seconds,[milliseconds]) -- return a time of a given number, or "00:00:00"
-ex: result = list:sectoclock(1000) -- return 00:16:40
-ex: result = list:sectoclock(1e3,true) -- return 00:16:40.0
+ex: result = list:sectotime(1000) -- return 00:16:40
+ex: result = list:sectotime(1e3,true) -- return 00:16:40.0
 
 listbox:rgbtohex(tcolor) -- return hexadecimal (string) of a given RGB color (table)
 ex: tcolor = {100,200,255}
