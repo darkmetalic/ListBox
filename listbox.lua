@@ -976,8 +976,8 @@ function listbox:draw()
 	end
 
 	if self.istouch then
-    for i, id in ipairs(love.touch.getTouches()) do
-    x,y=love.touch.getPosition(id)
+    	for i, id in ipairs(love.touch.getTouches()) do
+    	x,y=love.touch.getPosition(id)
 	end
 	end
 
