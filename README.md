@@ -1,5 +1,5 @@
 # Dynamic ListBox
-Dynamic ListBox By Luiz Renato for LÖVE - Free 2D Game Engine 0.10+ https://love2d.org/ 
+Dynamic ListBox for LÖVE - Free 2D Game Engine 0.10+ https://love2d.org/ 
 
 # Deno:
 ```lua
