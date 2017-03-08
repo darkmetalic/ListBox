@@ -1,7 +1,7 @@
 # Dynamic ListBox
 Dynamic ListBox for LÖVE - Free 2D Game Engine 0.10+ https://love2d.org/ 
 
-# Deno:
+# Demo:
 ```lua
 function love.load()
 
