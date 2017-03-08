@@ -1,6 +1,5 @@
-﻿delit
 abomasnow;;wtf?
-abra;;abra is a good pomkemon
+abra;;abra is a good pokemon
 absol;;see the separator you can add data in the import
 accelgor
 aegislash
