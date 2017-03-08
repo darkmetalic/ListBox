@@ -993,7 +993,6 @@ function listbox:draw()
 	if not self.visible then return end
 
 	if (self.scrypos+self.radius<self.y+self.h) and not listbox.isexpanding and not self.isscrlling and self.expand and x>=self.x+self.w and x<=self.x+self.w+self.expx+1 and y>=self.y+self.h and y<=self.y+self.h+self.expx+1 and self.ispress then
-	print(self.scrypos)
 	self.asize=false
 	listbox.isexpanding = true
 	end
