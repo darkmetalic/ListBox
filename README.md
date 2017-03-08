@@ -275,7 +275,7 @@ ex: function love.touchpressed(id, x, y, dx, dy, pressure)
 list.ispress=true
 end
 
-listbox:moved(x,y) or lisr.ispress=true -- optional for mouses, required for touches
+listbox:moved(x,y) or list.ispress=true -- optional for mouses, required for touches
 
 listbox:released(x,y) or list.ispress=false -- optional for mouses, required for touches
 
