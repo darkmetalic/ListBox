@@ -143,7 +143,7 @@ listbox:uplist() -- update/atualize the listbox, no returns
 
 listbox:unselect() or listbox:deselect() -- deselect the listbox, no returns
 
-listbox:setexpand(mode) -- set exapand mode true enables or "size" and enables or "pos" and enables or false disable, no returns
+listbox:setexpand(mode) -- set expand mode true enables or "size" and enables or "pos" and enables or false disable, no returns
 ex: list:setexpand("size")
 ex: list:setexpand("pos")
 ex: list:setexpand(true)
