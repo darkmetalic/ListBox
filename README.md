@@ -265,7 +265,7 @@ ex: function love.update(dt)
 list:update(dt)
 end
 
-listbox:press(x,y) or [listbox].ispress=true -- optional for mouses, required for touches
+listbox:press(x,y) or list.ispress=true -- optional for mouses, required for touches
 
 ex: function love.touchpressed(id, x, y, dx, dy, pressure)
 list:press(x,y)
@@ -275,9 +275,9 @@ ex: function love.touchpressed(id, x, y, dx, dy, pressure)
 list.ispress=true
 end
 
-listbox:moved(x,y) or [listbox].ispress=true -- optional for mouses, required for touches
+listbox:moved(x,y) or lisr.ispress=true -- optional for mouses, required for touches
 
-listbox:released(x,y) or [listbox].ispress=false -- optional for mouses, required for touches
+listbox:released(x,y) or list.ispress=false -- optional for mouses, required for touches
 
 listbox:resize() -- required if you want to autosize the listbox on resize
 
