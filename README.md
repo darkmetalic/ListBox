@@ -1,7 +1,8 @@
-# ListBox
+# Dynamic ListBox
 Dynamic ListBox By Luiz Renato for LOVE 2D 0.10+
 
-Deno:
+# Deno:
+```lua
 function love.load()
 
 font = love.graphics.newFont(15)
@@ -35,9 +36,9 @@ end
 function love.draw()
 list:draw()
 end
-
---DEFAULT VALUUES (tlist)
-
+```
+# DEFAULT VALUUES (tlist)
+```lua
 listbox={
 
 x=100,y=100, -- listbox position x,y (number)
@@ -99,9 +100,9 @@ indexzeros=1, -- index left zeros (number)
 selected=false, -- first index selected (number) or (false) none
 
 gpadding=5 -- global padding (number) }
-
->>> FUNCTIONS <<<
-
+```
+# FUNCTIONS
+```lua
 NOTE: all default values and functions are in lowercase
 
 text = string or number
@@ -212,9 +213,9 @@ NOTE: on the side (mode1-false) not works in android or ios, automatically expor
 
 listbox:import(file) or listbox:open(file) -- load all lines in the listbox, if have separator will add as data, return true if successfully
 ex: list:import("newlist.list") 
-
->>> EXTRA TOOLS <<<
-
+```
+# EXTRA TOOLS
+```lua
 listbox:getfileext(filepath) -- return file extension
 
 listbox:getfilename(filepath) -- return file name
@@ -243,9 +244,9 @@ result = list:rgbtohex(tcolor) -- return 64C8FF
 ex: print("#"..list:rgbtohex({100,200,255})) -- print #64C8FF
 
 listbox:mount(path) -- mounts a directory outside of its executable
-
->>> MAIN FUNCTIONS <<<
-
+```
+# MAIN FUNCTIONS
+```lua
 listbox:key(key,shortcut) -- required if you want to interacts the listbox using keyboards, returns key pressed
 
 ex: function love.keypressed(key)
@@ -289,3 +290,4 @@ listbox:draw() -- required if you want to use the listbox
 ex: function love.draw()
 list:draw()
 end
+```
