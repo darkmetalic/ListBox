@@ -265,7 +265,7 @@ ex: function love.update(dt)
 list:update(dt)
 end
 
-listbox:press(x,y) or [listbox].ispress=trie -- optional for mouses, required for touches
+listbox:press(x,y) or [listbox].ispress=true -- optional for mouses, required for touches
 
 ex: function love.touchpressed(id, x, y, dx, dy, pressure)
 list:press(x,y)
